@@ -58,16 +58,7 @@ body{
   z-index: 2;
   white-space: nowrap;
 }
-@media (max-width: 480px) {
-  .portada h1 {
-    /* Redúcelo un poco más que 4rem, ya que la fuente es muy ancha. 
-       Prueba con 3.7rem o 3.8rem. */
-    font-size: 3.7rem; 
-    /* Reduce ligeramente el espaciado para ganar espacio. */
-    letter-spacing: -1px; 
-    /* ¡IMPORTANTE! Quita el overflow: hidden de la portada temporalmente si lo tienes. */
-  }
-}
+
 .linea {
   position: relative;
   display: inline-block; /* para que el contenedor se ajuste al contenido */
@@ -144,7 +135,8 @@ body{
 @keyframes aparecer {
   to {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1) translateZ(0);
+    
   }
 }
 
