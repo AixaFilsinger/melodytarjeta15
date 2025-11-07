@@ -33,7 +33,8 @@ const Varios = () => {
                 data-aos-easing="ease-in-sine"
               >
                 17 de Noviembre <br />
-                22hs
+                20:30hs <br/>
+                Iglesia San gerardo
               </p>
             </aside>
             <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
