@@ -45,7 +45,7 @@ body{
 
 /* Ubicación del brillo */
 .mariposa-top {
-  top: 500px;
+  top: 550px;
   right: 5px;
 }
 
@@ -173,7 +173,7 @@ background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/src/ass
    display: flex;
    justify-content: center;
    align-items: end;
-   padding-bottom: 10rem;
+   padding-bottom: 9rem;
 }
 
 .cuentaRe {
