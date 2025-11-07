@@ -36,7 +36,7 @@ const Portada = () => {
           </span>
         ))}
       </h1>
-      <img src={chica} alt="" width={410} className="chica"/>
+      <img src={chica} alt="" width={380} className="chica"/>
       </aside>
      <img src={mariposa} alt="" className="mariposa mariposa-top"/>
       <img src={marco} alt=""  width={400} className="cuadro-fondo"/>

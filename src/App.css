@@ -45,13 +45,13 @@ body{
 
 /* Ubicación del brillo */
 .mariposa-top {
-  top: 425px;
-  right: 28px;
+  top: 300px;
+  right: 24px;
 }
 
 .portada h1{
   font-family: 'Amoresa', cursive;
-  font-size: 5.8rem;
+  font-size: 5rem;
   color: black;
   margin-bottom: 17rem;
   position: relative;
@@ -104,7 +104,7 @@ body{
   transform: translate(-50%, -50%); 
 }
 .chica{
-  margin-top: -15rem;
+  margin-top: -14rem;
 }
 /* Imágenes laterales decorativas */
 .decor {
