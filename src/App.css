@@ -46,14 +46,14 @@ body{
 /* Ubicación del brillo */
 .mariposa-top {
   top: 425px;
-  right: 22px;
+  right: 28px;
 }
 
 .portada h1{
   font-family: 'Amoresa', cursive;
-  font-size: 6rem;
+  font-size: 5.8rem;
   color: black;
-  margin-bottom: 18rem;
+  margin-bottom: 17rem;
   position: relative;
   z-index: 2;
 }
@@ -148,7 +148,7 @@ body{
 .repro{
   position: relative;
   z-index: 101;
-  margin-top: 10rem;
+  margin-top: 2rem;
   height: 18rem;
   
 }
