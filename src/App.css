@@ -51,11 +51,12 @@ body{
 
 .portada h1{
   font-family: 'Amoresa', cursive;
-  font-size: 4rem;
+  font-size: 5.5rem;
   color: black;
   margin-bottom: 17rem;
   position: relative;
   z-index: 2;
+  white-space: nowrap;
 }
 .linea {
   position: relative;
@@ -97,7 +98,7 @@ body{
   /* ¡Capa superior! Este valor es mayor que el 2, 10, o cualquier otro que tengas. */
   z-index: 100; 
   height: 100%;
-  width: 103vw;
+  width: 100vw;
   /* Mantienes el centrado */
   top: 50%; 
   left: 50%;
