@@ -1,11 +1,15 @@
 import quince from "../assets/15.png";
-import princesa from "../assets/princesa.jpg";
-import castillo from "../assets/castillo.jpg";
+import chica from "../assets/Chica.png";
+import marco from "../assets/Marco8.png"
+import ReproductorMusic from '../views/ReproductorMusic'
+
 
 const Portada = () => {
   return (
     <section className="d-flex flex-column align-items-center  portada">
-      <aside className="linea">
+      <aside>
+         <ReproductorMusic></ReproductorMusic>
+         <aside className="linea">
         <h2 className="enfoque mis">
           {"mis".split("").map((letra, i) => (
             <span key={i} style={{ animationDelay: `${i * 0.1}s` }}>
@@ -24,14 +28,16 @@ const Portada = () => {
       </aside>
 
       <h1 className="enfoque">
-        {"Pilar".split("").map((letra, i) => (
+        {"Melody".split("").map((letra, i) => (
           <span key={i} style={{ animationDelay: `${i * 0.1}s` }}>
             {letra}
           </span>
         ))}
       </h1>
-      <img src={castillo} alt="" className="decor decor-izq" width={500} />
-      <img src={princesa} alt="" className="decor decor-der" width={500} />
+      <img src={chica} alt="" width={380} className="chica"/>
+      </aside>
+     
+      <img src={marco} alt=""  width={400} className="cuadro-fondo"/>
     </section>
   );
 };

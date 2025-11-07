@@ -32,7 +32,7 @@ body{
   font-style: normal;
 }
 .fondo1{
-  background: url(./assets/fondoultimo.png) no-repeat;
+  background: url(./assets/Fondoinicio.png) no-repeat;
   background-size: cover;
 }
 
@@ -41,7 +41,7 @@ body{
 .portada h1{
   font-family: 'Amoresa', cursive;
   font-size: 6rem;
-  color: #8D9F6C;
+  color: black;
   margin-bottom: 18rem;
   position: relative;
   z-index: 2;
@@ -81,7 +81,20 @@ body{
   overflow: hidden;
   text-align: center;
 }
-
+.cuadro-fondo {
+  position: absolute; 
+  /* ¡Capa superior! Este valor es mayor que el 2, 10, o cualquier otro que tengas. */
+  z-index: 100; 
+  height: 100%;
+  width: 103vw;
+  /* Mantienes el centrado */
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.chica{
+  margin-top: -15rem;
+}
 /* Imágenes laterales decorativas */
 .decor {
   position: absolute;
@@ -122,6 +135,8 @@ body{
 }
 
 .repro{
+  position: relative;
+  z-index: 10;
   margin-top: 10rem;
   height: 18rem;
   
@@ -141,7 +156,7 @@ body{
   z-index: 2; /* asegura que quede por encima */
   width: 100%;
   text-align: center;
-  color: black;
+  color: white;
  
 }
 .cuentaRe h2 {
@@ -171,7 +186,7 @@ small{
 }
 
 .btn-music {
-  background-color: #749764; /* botón blanco */
+  background-color: #305B8F; /* botón blanco */
   color: white; /* ícono color vino */
   border: none;
   padding: 10px 15px;
@@ -182,13 +197,13 @@ small{
 }
 
 .btn-music:hover {
-  background-color: rgb(212, 175, 55);
+  background-color: rgb(211, 211, 211);
   color: white;
   transform: scale(1.1);
 }
 
 .varios0{
-  background: url(./assets/maslargo.jpg) no-repeat;
+  background: url(./assets/fondo.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -212,9 +227,9 @@ small{
   margin:20px 30px;
 }
 .btn-varios2 {
-  background: #749764;
+  background: #305B8F;
   color: #fff;
-  border: 2px solid gold;
+  border: 2px solid rgb(211, 211, 211);
   border-radius: 50px;
   padding: 12px 30px;
   font-size: 1.1rem;
@@ -227,9 +242,9 @@ small{
 
 .btn-varios {
    font-family: 'Cormorant Garamond', serif;
-  background: #749764;
+  background: #305B8F;
   color: #fff;
-  border: 2px solid gold;
+  border: 2px solid rgb(211, 211, 211);
   border-radius: 50px;
   padding: 12px 30px;
   font-size: 1.1rem;
@@ -241,8 +256,8 @@ small{
 }
 
 .btn-varios:hover {
-  background: gold;
-  color: #8D9F6C; /* texto vino */
+  background: rgb(211, 211, 211);
+  color: #305B8F; /* texto vino */
   box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
@@ -256,7 +271,7 @@ small{
 .fin {
   height: 100vh;
   position: relative;
-  background: url(./assets/Ini.png);
+  background: url(./assets/Fondoinicio.png);
   background-size: cover;
   background-position: center;
   overflow: hidden; /* para que el overlay no se escape */
@@ -281,13 +296,13 @@ small{
 }
 .fin h4{
  font-family: "Nefelibata", cursive;
- color: rgb(212, 175, 55);
+ color: black;
  font-size: 40px;
  margin-bottom: 80px;
 }
 .fin h2{
   font-family: 'Amoresa', cursive;
-  color: rgb(212, 175, 55);
+  color: black;
   font-weight: 300;
   font-size: 60px;
   margin: 0;
@@ -344,13 +359,13 @@ small{
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid gold;
+  border: 2px solid rgb(211, 211, 211);
   box-shadow: 0 0 10px rgba(255,255,255,0.3);
 }
 
 /* 🔹 Colores específicos */
 .color-circle.verde {
-  background-color: #749764;
+  background-color: skyblue;
 }
 
 

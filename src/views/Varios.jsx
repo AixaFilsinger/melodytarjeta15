@@ -25,6 +25,25 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
+                Misa
+              </h4>
+              <p
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                17 de Noviembre <br />
+                22hs
+              </p>
+            </aside>
+            <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
+              <img src={brillo} alt="" className="brillo brillo-top" />
+              <img src={copas} alt="" width={150} />
+              <h4
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 Fiesta
               </h4>
               <p
@@ -32,7 +51,7 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                24 de Octubre <br />
+                22 de Noviembre <br />
                 22hs
               </p>
             </aside>
@@ -51,15 +70,15 @@ const Varios = () => {
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
               >
-                Salón Rancho Don José
+                Salón Valentina
                 <br />
-                Alto verde.
+                Olleros 4550.
               </p>
               <button
                 className="btn-varios mt-3 mb-5"
                 onClick={() =>
                   window.open(
-                    "https://maps.app.goo.gl/5Avh1ejqbVa9iP316?g_st=aw"
+                    "https://maps.app.goo.gl/oVFCvpgBDMytm5f39"
                   )
                 }
               >
@@ -83,7 +102,7 @@ const Varios = () => {
                 data-aos-easing="ease-in-sine"
               >
                 Elegante Sport
-                <br /> Evitar el color verde
+                <br /> Evitar el color celeste
               </p>
               <div className="color-palette">
                 <div className="color-circle verde" title="Verde"></div>
@@ -110,7 +129,7 @@ const Varios = () => {
                 className="btn-varios mt-3 mb-5"
                 onClick={() =>
                   window.open(
-                    "https://open.spotify.com/playlist/5g3p3R0ducJAilePxlNoy6?si=Unt-MiD-R1i7tTblbFwSaA&pt=595dcfc4382e657956463922ed6acb99"
+                    "https://open.spotify.com/playlist/60dc1adwhZPFUZC5EiZQOy?si=kV4kP7YoQCOQ9C272pZonQ"
                   )
                 }
               >
@@ -130,16 +149,9 @@ const Varios = () => {
               </p>
               <button
                 className="btn-varios mt-3 mb-2"
-                onClick={() => window.open("https://wa.link/4rs19n")}
+                onClick={() => window.open("https://wa.link/ex6e1y")}
               >
-                Confirmar a Mamá Pilar
-              </button>
-              <p>o</p>
-              <button
-                className="btn-varios mt-2 mb-5"
-                onClick={() => window.open("https://wa.link/c9xepb")}
-              >
-                Confirmar a Pilar
+                Confirmar asistencia
               </button>
             </aside>
             <aside className="col-xs-12 text-center regalo mb-5">
@@ -171,12 +183,12 @@ const Varios = () => {
 
                   {/* Los <p> ahora sí se ven */}
                   <p className="mb-1">
-                    <strong>Alias:</strong> natalia.761.sofa.mp
+                    <strong>Alias:</strong> Merveroon
                   </p>
                   <p className="mb-3">
                     <strong>A nombre de:</strong>
                     <br />
-                    Natalia René Delgado
+                    Melody Veron
                   </p>
 
                   <button
@@ -215,7 +227,7 @@ const Varios = () => {
       <article className=" fin d-flex flex-column justify-content-center align-items-center position-relative">
         <img src={brillo} alt="" className="brillo brillo-top1" />
         <h4 data-aos="zoom-in-down">¡No podes faltar!</h4>
-        <h2 data-aos="zoom-in-down">Pilar</h2>
+        <h2 data-aos="zoom-in-down">Melody</h2>
         <img src={brillo} alt="" className="brillo brillo-bottom1" />
       </article>
     </section>
