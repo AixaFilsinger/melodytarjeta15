@@ -185,12 +185,12 @@ const Varios = () => {
 
                   {/* Los <p> ahora sí se ven */}
                   <p className="mb-1">
-                    <strong>Alias:</strong> Merveroon
+                    <strong>Alias:</strong> mer.veron
                   </p>
                   <p className="mb-3">
                     <strong>A nombre de:</strong>
                     <br />
-                    Melody Veron
+                    Mercedes Veron
                   </p>
 
                   <button
