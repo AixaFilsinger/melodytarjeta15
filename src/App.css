@@ -60,9 +60,12 @@ body{
 }
 @media (max-width: 480px) {
   .portada h1 {
-    font-size: 4rem; /* El ajuste de 4rem que ya probaste */
-    /* 🥈 Reduce el espaciado horizontal de las letras para que quepa */
-    letter-spacing: -2px; /* Prueba con valores como -1px o -2px */
+    /* Redúcelo un poco más que 4rem, ya que la fuente es muy ancha. 
+       Prueba con 3.7rem o 3.8rem. */
+    font-size: 3.7rem; 
+    /* Reduce ligeramente el espaciado para ganar espacio. */
+    letter-spacing: -1px; 
+    /* ¡IMPORTANTE! Quita el overflow: hidden de la portada temporalmente si lo tienes. */
   }
 }
 .linea {
@@ -97,7 +100,7 @@ body{
 
 .portada {
   position: relative;
-  overflow: hidden;
+ 
   text-align: center;
 }
 .cuadro-fondo {
