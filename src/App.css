@@ -17,7 +17,7 @@ body, html, #root {
   min-height: 100vh;
 }
 body{
- background-color: #FFFEF7;
+ background: url(/src/assets/Fondoinicio.png)
   
 }
 
@@ -51,7 +51,7 @@ body{
 
 .portada h1{
   font-family: 'Amoresa', cursive;
-  font-size: 5rem;
+  font-size: 4rem;
   color: black;
   margin-bottom: 17rem;
   position: relative;
