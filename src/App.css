@@ -58,6 +58,13 @@ body{
   z-index: 2;
   white-space: nowrap;
 }
+@media (max-width: 480px) {
+  .portada h1 {
+    font-size: 4rem; /* El ajuste de 4rem que ya probaste */
+    /* 🥈 Reduce el espaciado horizontal de las letras para que quepa */
+    letter-spacing: -2px; /* Prueba con valores como -1px o -2px */
+  }
+}
 .linea {
   position: relative;
   display: inline-block; /* para que el contenedor se ajuste al contenido */
