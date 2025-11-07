@@ -38,7 +38,7 @@ body{
 
 .mariposa {
   position: absolute;
-  width: 80px;  /* ajusta según quieras */
+  width: 50px;  /* ajusta según quieras */
   
   animation: float 3s ease-in-out infinite;
 }
@@ -173,7 +173,7 @@ background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/src/ass
    display: flex;
    justify-content: center;
    align-items: end;
-   padding-bottom: 8rem;
+   padding-bottom: 10rem;
 }
 
 .cuentaRe {
