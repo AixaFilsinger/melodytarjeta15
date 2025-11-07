@@ -5,6 +5,7 @@ import Notamusical from "../assets/disco.png";
 import copas from "../assets/copasN.png";
 import asistencia from "../assets/invitacionN.png";
 import regalo from "../assets/regaloN.png";
+import misa from "../assets/iglesia.png";
 import qr from "../assets/qr.jpeg";
 
 import { useState } from "react";
@@ -19,7 +20,7 @@ const Varios = () => {
           <article className="row">
             <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
               <img src={brillo} alt="" className="brillo brillo-top" />
-              <img src={copas} alt="" width={150} />
+              <img src={misa} alt="" width={150} />
               <h4
                 data-aos="fade-right"
                 data-aos-offset="300"
