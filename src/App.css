@@ -36,7 +36,18 @@ body{
   background-size: cover;
 }
 
+.mariposa {
+  position: absolute;
+  width: 80px;  /* ajusta según quieras */
+  
+  animation: float 3s ease-in-out infinite;
+}
 
+/* Ubicación del brillo */
+.mariposa-top {
+  top: 500px;
+  right: 170px;
+}
 
 .portada h1{
   font-family: 'Amoresa', cursive;

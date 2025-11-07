@@ -1,6 +1,8 @@
 import quince from "../assets/15.png";
 import chica from "../assets/Chica.png";
 import marco from "../assets/Marco8.png"
+import mariposa from "../assets/Mariposa.png"
+
 import ReproductorMusic from '../views/ReproductorMusic'
 
 
@@ -36,7 +38,7 @@ const Portada = () => {
       </h1>
       <img src={chica} alt="" width={380} className="chica"/>
       </aside>
-     
+     <img src={mariposa} alt="" className="mariposa mariposa-top"/>
       <img src={marco} alt=""  width={400} className="cuadro-fondo"/>
     </section>
   );
