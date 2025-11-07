@@ -1,4 +1,4 @@
-import adorno from "../assets/adorno.png"
+import adorno from "../assets/adornopng.png"
 
 const Frase = () => {
     return (

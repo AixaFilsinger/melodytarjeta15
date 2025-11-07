@@ -1,4 +1,4 @@
-import circulo from "../assets/melody.jpg";
+
 import { useEffect, useState } from "react";
 const CuentaRegresiva = () => {
   const targetDate = new Date("2025-11-22T22:00:00").getTime(); // FECHA DEL EVENTO
@@ -44,11 +44,7 @@ const CuentaRegresiva = () => {
     return () => clearInterval(timer);
   }, [targetDate]);
   return (
-    <section>
-      <aside className="d-flex justify-content-center align-items-center">
-        <img src={circulo} alt="" width={500} className="img-fluid" />
-      </aside>
-
+    <section className="cuenta">
       <section className="cuentaRe d-flex flex-column justify-content-center align-items-center text-center">
         <h2 className="h2-cuentaRe ">¡Tan solo faltan!</h2>
         <aside className="px-2 pb-2">
@@ -70,7 +66,6 @@ const CuentaRegresiva = () => {
                 <h3>{timeLeft.seconds}</h3>
                 <small>Segundos</small>
               </div>
-              
             </div>
           </div>
         </aside>
